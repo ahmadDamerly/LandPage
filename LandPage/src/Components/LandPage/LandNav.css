@@ -1,0 +1,65 @@
+.landnav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navlinks ul{
+    margin: none;
+    list-style: none;
+    padding: none;
+
+}
+.navlinks ul li{
+    display: inline-block;
+    margin-right: 2rem;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+
+}
+.navbarcustoms{
+    display: flex;
+    justify-content: space-between;
+}
+.navlogin{
+    color: #4CAF4F;
+    background-color: white;
+    border: none;
+    margin-right: 10px;
+
+}
+.navsignup{
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #4CAF4F;
+    margin-right: 10px;
+    width: 91px;
+    height: 40px;
+}
+
+.custom{
+    display: inline-block;  
+}
+@media screen and (max-width : 1007px){
+.navlinks{
+    display: none;
+}
+.logo{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+}
+@media screen and (min-width : 1007px){
+    .custom{
+        display: none;
+    }
+}
+
+.nav-bg{
+    background-color: #F5F7FA;
+}

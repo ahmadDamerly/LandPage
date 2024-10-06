@@ -1,0 +1,85 @@
+.carouselmain{
+    position: relative;
+    padding-top: 40px;
+    ;
+}
+.carouseltext{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+}
+
+.carouseltext button{
+    background-color: #4CAF4F;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #4CAF4F;
+    width: 128px;
+    height: 52px;
+}
+.carouseltext p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #717171;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.carouseltext h1{
+    color: #4D4D4D;
+font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+
+}
+.carouseltext span{
+    color: #4CAF4F;
+    font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+}
+.carousel-indicators button{
+    width: 0.4rem !important;
+    height: 0.4rem !important;
+    border-radius: 50%;
+    background-color: green !important;
+}
+
+@media screen and (max-width : 1007px){
+    .carouseltext h1 {
+        display: none;
+    }
+}
+@media screen and (max-width : 1007px){
+    .carouseltext p {
+       display: none;
+    }
+}
+@media screen and (max-width : 1007px){
+    .carouseltext span {
+       display: none;
+    }
+}
+@media screen and (max-width : 1007px){
+    .carouseltext button {
+       width: 50px;
+       height: 30px;
+       font-size: 10px;
+    }
+}
+
+@media screen and (max-width : 1007px){
+    .carouseltext {
+        top: calc(100% - 15px);
+        left : calc(50% - 25px);
+    }
+}
+.carou-bg{
+    background-color: #F5F7FA;
+}

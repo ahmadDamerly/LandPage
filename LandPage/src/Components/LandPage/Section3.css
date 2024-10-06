@@ -1,0 +1,40 @@
+.section3{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.sec-img{
+display: flex;
+align-items: center;
+}
+.sec-img img{
+    width: 100%;
+}
+.sec3-text h3{
+    color: #4D4D4D;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    
+}
+.sec3-text p{
+    color: #717171;
+    margin-top: 15px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+
+}
+.sec3-text button{
+    background-color: #4CAF4F ;
+    color: white;
+    border: 1px solid #4CAF4F;
+
+width: 151px;
+height: 52px;
+border-radius: 4px;
+
+
+}

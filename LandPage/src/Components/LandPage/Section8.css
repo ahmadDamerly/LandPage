@@ -1,0 +1,40 @@
+.section8{
+margin-top: 110px;
+padding-top: 30px;
+background-color: #F5F7FA;
+
+}
+.section8 h3{
+    text-align: center;
+    color: #263238;
+font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 76px;
+
+}
+.sec8-btn{
+    display: flex;
+    justify-content: center;
+}
+.section8 button{
+    background-color: #4CAF4F;
+    width: 178px;
+height: 52px;
+border: 1px solid #4CAF4F;
+border-radius: 5px;
+color: white;
+margin-top: 20px;
+
+}
+
+@media screen and (max-width : 1007px){
+    .section8{
+    margin-top: 150px;
+}
+}
+@media screen and (max-width : 1000px){
+    .section8{
+    margin-top: 20px;
+}
+}

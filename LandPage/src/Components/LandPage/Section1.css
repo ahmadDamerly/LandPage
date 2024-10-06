@@ -1,0 +1,29 @@
+.section1{
+    margin-top: 35px;
+
+}
+.section1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.section1 ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.section1 h1{
+    text-align: center;
+    color :#4D4D4D;
+}
+.section1 p{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #717171;
+    size: 16px;
+
+}
+.section1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

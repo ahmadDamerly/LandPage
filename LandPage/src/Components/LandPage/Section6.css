@@ -1,0 +1,59 @@
+.sec6-grand ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+.sec6-grand ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.tim img{
+    width: 100%;
+}
+.sec6-grand{
+    display: flex;
+    align-items: center;
+}
+.section6{
+    margin-top: 60px;
+    background-color: #F5F7FA;
+    padding: 20px 10px 10px 10px;
+}
+.section6 p{
+    color: #717171;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+padding-top: 10px;
+
+}
+.writer{
+    color: #4CAF4F;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+
+}
+.desc{
+    color: #89939E;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+
+}
+.section6 span{
+    color: #4CAF4F;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+
+}
+.sec6-bg{
+    background-color: #F5F7FA;
+}
